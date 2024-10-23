@@ -1,0 +1,30 @@
+* {
+  margin: 0%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(125, 125, 125);
+}
+
+#contenedor {
+  background-color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 25px;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.cuadro {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+}
